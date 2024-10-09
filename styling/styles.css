@@ -37,7 +37,7 @@ p, .project-links {
   font-size: 15px;
 }
 
-h2, .button a, .button, .p-white {
+h2, .p-white {
   color: var(--color-white)
 }
 
@@ -47,10 +47,6 @@ h3, nav li, footer a, p, .project-links, .h2-black {
 
 h2, nav li, footer a {
   font-family: var(--font-secondary);
-}
-
-.button {
-  background-color: var(--color-black);
 }
 
 .background-wrapper {

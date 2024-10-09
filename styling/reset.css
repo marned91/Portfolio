@@ -55,10 +55,14 @@ header{
 .button {
   padding: 10px 20px;
   border-radius: 15px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .button:hover {
-  transform: scale(1.02);
+  transform: scale(1.03);
   transition: transform 300ms ease-out;
 }
 
