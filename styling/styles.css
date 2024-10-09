@@ -4,7 +4,7 @@
 @import url(about.css);
 
 body {
-  margin: 0;
+  margin: 0%;
   overflow-x: hidden;
   max-width: 100%;
 }
@@ -25,19 +25,23 @@ h3 {
   font-size: 25px;
 }
 
-nav a, footer a, button {
+nav a {
+  font-size: 18px;
+}
+
+footer a, .button, .p-intro {
   font-size: 16px;
 }
 
-p{
+p, .project-links {
   font-size: 15px;
 }
 
-h2, button a, button {
+h2, .button a, .button, .p-white {
   color: var(--color-white)
 }
 
-h3, nav li, footer a, p {
+h3, nav li, footer a, p, .project-links, .h2-black {
   color: var(--color-black);
 }
 
@@ -45,7 +49,7 @@ h2, nav li, footer a {
   font-family: var(--font-secondary);
 }
 
-button {
+.button {
   background-color: var(--color-black);
 }
 
@@ -53,12 +57,7 @@ button {
   background-color: var(--color-background);
 }
 
-button:hover {
-  background-color: var(--color-highlight);
-  color: var(--color-black);
-}
-
-h3, p, button a, button {
+h3, p, .button a, .button, .project-links {
   font-family: var(--font-body);
 }
 
@@ -69,22 +68,26 @@ header, footer {
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px) {
   h1{
-    font-size: 25;
+    font-size: 25px;
   }
 
   h2{
-    font-size: 20;
+    font-size: 20px;
   }
 
   h3{
-    font-size: 18;
+    font-size: 18px;
   }
 
-  nav a, footer a, button {
+  nav a {
+    font-size: 16px;
+  }
+
+  footer a, .button a, .p-intro {
     font-size: 14px;
   }
   
-  p{
+  p, .project-links {
     font-size: 13px;
   }
 
@@ -93,22 +96,26 @@ header, footer {
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px) {
   h1{
-    font-size: 30;
+    font-size: 30px;
   }
 
   h2{
-    font-size: 25;
+    font-size: 25px;
   }
 
   h3{
-    font-size: 20;
+    font-size: 20px;
   }
 
-  nav a, footer a, button {
+  nav a {
+    font-size: 17px;
+  }
+
+  footer a, .button a, .p-intro {
     font-size: 15px;
   }
   
-  p{
+  p, .project-links {
     font-size: 14px;
   }
 }

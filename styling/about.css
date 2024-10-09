@@ -1,0 +1,72 @@
+.background-info {
+  width: 90%;
+  margin: auto;
+  line-height: 25px;
+}
+.padding-bottom-p {
+  padding-bottom: 20px;
+}
+
+.facts-1, .facts-2 {
+  display: flex;
+  margin: auto;
+}
+
+.facts-frontend-text, .facts-me-text {
+  max-width: 60%;
+  line-height: 25px;
+}
+
+.facts-image {
+  width: 100%;
+  height: auto;
+}
+
+/*mobile and small tablets*/
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .facts-1, .facts-2 {
+    width: 100%;
+    padding: 30px 0px;
+    gap: 10px;
+  }
+
+  .facts-1 {
+    flex-direction: column-reverse;
+  }
+
+  .facts-2 {
+    flex-direction: column;
+  }
+
+  .facts-frontend-text, .facts-me-text {
+    max-width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+  .facts-image {
+    width: 40%;
+    height: auto;
+  }
+
+  .page-intro-image {
+    padding-top: 20px;
+  }
+}
+
+/*smaller and lagrer tablets*/
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .facts-1, .facts-2 {
+    width: 100%;
+    padding: 30px 20px;
+    gap: 20px;
+  }
+}
+
+/*laptop and desktop*/
+@media screen and (min-width: 901px) and (max-width: 20000px) {
+  .facts-1, .facts-2 {
+    width: 70%;
+    padding: 30px 10px;
+    gap: 20px;
+  }
+}
