@@ -1,0 +1,112 @@
+header, footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo, .footer-logo {
+  margin-left: 90px;
+}
+
+.logo, .logo-footer {
+  width: 60%;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a, footer a {
+  text-decoration: none;
+}
+
+nav a:hover, footer a:hover, .active-page {
+  font-weight: bold;
+}
+
+nav a:visited, nav a:link footer a:visited, footer a:link{
+  color: black;
+}
+
+header{
+  padding: 10px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: black;
+  gap: 10%;
+}
+
+.logo-header {
+  width: 45%;
+  height: auto;
+}
+
+/*mobile and small tablets*/
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  header{
+    gap: 0px;
+  }
+
+  .logo, .footer-logo {
+    margin-left: 10px;
+  }
+
+  nav li {
+    padding-inline: 5px;
+  }
+
+  nav ul {
+    padding-inline-start: 0px;
+  }
+
+  footer {
+    gap: 10px;
+  }
+
+}
+
+/*smaller and lagrer tablets*/
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  header{
+    gap: 10px;
+  }
+
+  .logo, .footer-logo {
+    margin-left: 20px;
+  }
+
+  nav li {
+    padding-inline: 5px;
+  }
+
+  nav ul {
+    padding-inline-start: 0px;
+  }
+
+  footer {
+    gap: 8%;
+  }
+}
+
+/*laptop and desktop*/
+@media screen and (min-width: 901px) and (max-width: 20000px) {
+  header{
+    gap: 0px;
+  }
+
+  .logo, .footer-logo {
+    margin-left: 100px;
+  }
+
+  nav li {
+    padding-inline: 10px;
+  }
+
+  nav ul {
+    padding-inline-start: 0px;
+  }
+
+  footer {
+    gap: 20%;
+  }
+}

@@ -2,3 +2,113 @@
 @import url(reset.css);
 @import url(index.css);
 @import url(about.css);
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: var(--font-primary);
+  color: var(--color-h1);
+  font-size: 40px;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+nav a, footer a, button {
+  font-size: 16px;
+}
+
+p{
+  font-size: 15px;
+}
+
+h2, button a, button {
+  color: var(--color-white)
+}
+
+h3, nav li, footer a, p {
+  color: var(--color-black);
+}
+
+h2, nav li, footer a {
+  font-family: var(--font-secondary);
+}
+
+button {
+  background-color: var(--color-black);
+}
+
+.background-wrapper {
+  background-color: var(--color-background);
+}
+
+button:hover {
+  background-color: var(--color-highlight);
+  color: var(--color-black);
+}
+
+h3, p, button a, button {
+  font-family: var(--font-body);
+}
+
+header, footer {
+  background-color: var(--color-white);
+}
+
+/*mobile and small tablets*/
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  h1{
+    font-size: 25;
+  }
+
+  h2{
+    font-size: 20;
+  }
+
+  h3{
+    font-size: 18;
+  }
+
+  nav a, footer a, button {
+    font-size: 14px;
+  }
+  
+  p{
+    font-size: 13px;
+  }
+
+}
+
+/*smaller and lagrer tablets*/
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  h1{
+    font-size: 30;
+  }
+
+  h2{
+    font-size: 25;
+  }
+
+  h3{
+    font-size: 20;
+  }
+
+  nav a, footer a, button {
+    font-size: 15px;
+  }
+  
+  p{
+    font-size: 14px;
+  }
+}
