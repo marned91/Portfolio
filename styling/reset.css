@@ -1,63 +1,55 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0%;
+}
+
 header, footer {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  margin: auto;
+  padding: 10px;
 }
 
-.logo, .footer-logo {
-  margin-left: 90px;
+header {
+  border-bottom: 1px;
+  border-color: black;
+  border-style: solid;
 }
 
-.logo {
-  width: 50%;
-}
-
-.logo-footer {
-  width: 60%;
+.logo-header {
+  width: 70%;
+  height: auto;
 }
 
 nav li {
   display: inline-block;
 }
 
-nav a, footer a, a.button, nav a:active {
+nav ul {
+  padding-inline-start: 0px;
+}
+
+
+nav a, a.button, footer a, nav a:active, footer a:active, nav a:visited, footer a:visited, a.button, a.button:active, a.button:visited {
   text-decoration: none;
 }
 
-nav a:hover, footer a:hover, .active-page, .p-bold {
-  font-weight: bold;
-}
-
-nav a:visited, nav a:link footer a:visited, footer a:link, nav a:active{
-  color: black;
-}
-
-header, footer {
-  padding: 10px;
-}
-
-header{
-  border-bottom: 1px;
-  border-style: solid;
-  border-color: black;
-  gap: 10%;
-}
-
-.logo-header {
-  width: 45%;
+.logo-footer {
+  width: 80%;
   height: auto;
 }
 
-.background-wrapper {
-  padding: 40px 0px 100px 0px;
+.p-bold, nav a:hover, .footer-link:hover, .active-page {
+  font-weight: bold;
 }
 
 .button {
-  padding: 10px 20px;
-  border-radius: 15px;
   background-color: black;
   color: white;
-  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 15px;
   display: inline-block;
 }
 
@@ -66,84 +58,126 @@ header{
   transition: transform 300ms ease-out;
 }
 
-footer {
-  justify-content: space-between;
-}
-
-.footer-link{
-  margin-right: 80px;
+.background-wrapper {
+  padding: 30px 0px;
 }
 
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px) {
-  header{
-    gap: 0px;
+  h1 {
+    font-size: 25px;
   }
 
-  .logo, .footer-logo {
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  nav a, footer a, .p-intro {
+    font-size: 14px;
+  }
+
+  p, a.button {
+    font-size: 13px;
+  }
+
+  .logo {
     margin-left: 10px;
+    flex: 1;
+  }
+  
+  .nav {
+    margin-right: 10px;
   }
 
   nav li {
-    padding-inline: 5px;
+    padding-inline: 10px;
   }
 
-  nav ul {
-    padding-inline-start: 0px;
+  .footer-link {
+    margin-right: 10px;
   }
-
-  footer {
-    gap: 0px;
-  }
-
-  .footer-link{
-    margin-right: 30px;
-  }
-
 }
 
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px) {
-  header{
-    gap: 10px;
+  h1 {
+    font-size: 30px;
   }
 
-  .logo, .footer-logo {
-    margin-left: 20px;
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  nav a, footer a, .p-intro {
+    font-size: 16px;
+  }
+
+  p, a.button {
+    font-size: 14px;
+  }
+
+  .logo {
+    margin-left: 30px;
+    flex: 1;
+  }
+  
+  .nav {
+    margin-right: 50px;
   }
 
   nav li {
-    padding-inline: 5px;
+    padding-inline: 10px;
   }
 
-  nav ul {
-    padding-inline-start: 0px;
-  }
-
-  footer {
-    gap: 8%;
+  .footer-link {
+    margin-right: 30px;
   }
 }
 
 /*laptop and desktop*/
 @media screen and (min-width: 901px) and (max-width: 20000px) {
-  header{
-    gap: 0px;
+  h1 {
+    font-size: 40px;
   }
 
-  .logo, .footer-logo {
-    margin-left: 100px;
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  nav a, footer a, .p-intro {
+    font-size: 18px;
+  }
+
+  p, a.button {
+    font-size: 16px;
+  }
+
+  .logo {
+    margin-left: 80px;
+  }
+  
+  .nav {
+    margin-right: 250px;
   }
 
   nav li {
-    padding-inline: 15px;
+    padding-inline: 20px;
   }
 
-  nav ul {
-    padding-inline-start: 0px;
+  .footer-link {
+    margin-right: 50px;
   }
 
-  footer {
-    gap: 20%;
-  }
 }

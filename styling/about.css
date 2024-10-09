@@ -1,20 +1,52 @@
-.background-info {
-  width: 90%;
+.page-intro-about {
+  display: flex;
+  width: 80%;
+  justify-content: center;
   margin: auto;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.page-intro-about-text, .page-intro-about-image {
+  flex: 1;
+}
+
+.page-intro-about-text {
   line-height: 25px;
 }
+
+.about-image {
+  width: 100%;
+  height: auto;
+}
+
 .padding-bottom-p {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.background-info, .facts-1, .facts-2 {
+  line-height: 25px;
+}
+
+.background-info {
+  width: 80%;
+  margin: auto;
+}
+
+.facts-1 {
+  padding-top: 30px;
+}
+
+.facts-2 {
+  padding-bottom: 50px;
 }
 
 .facts-1, .facts-2 {
   display: flex;
+  width: 80%;
   margin: auto;
-}
-
-.facts-frontend-text, .facts-me-text {
-  max-width: 60%;
-  line-height: 25px;
+  align-items: center;
+  gap: 20px;
 }
 
 .facts-image {
@@ -22,51 +54,47 @@
   height: auto;
 }
 
+
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px) {
-  .facts-1, .facts-2 {
-    width: 100%;
-    padding: 30px 0px;
-    gap: 10px;
-  }
-
   .facts-1 {
     flex-direction: column-reverse;
   }
 
-  .facts-2 {
+  .page-intro-about {
+    gap: 10px;
+    width: 90%;
+  }
+
+  .facts-2, .page-intro-about {
     flex-direction: column;
   }
 
-  .facts-frontend-text, .facts-me-text {
-    max-width: 100%;
-    margin: auto;
-    padding: 10px;
-  }
-  .facts-image {
-    width: 40%;
-    height: auto;
+  .facts-1, .facts-2 {
+    width: 90%;
   }
 
-  .page-intro-image {
-    padding-top: 20px;
+  .facts-image {
+    width: 60%;
+    height: auto;
   }
 }
 
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px) {
-  .facts-1, .facts-2 {
-    width: 100%;
-    padding: 30px 20px;
-    gap: 20px;
+  .facts-frontend-text, .facts-me-text {
+    width: 55%;
+  }
+
+  .page-intro-about {
+    width: 90%;
   }
 }
 
 /*laptop and desktop*/
 @media screen and (min-width: 901px) and (max-width: 20000px) {
-  .facts-1, .facts-2 {
-    width: 70%;
-    padding: 30px 10px;
-    gap: 20px;
+  .facts-frontend-text, .facts-me-text {
+    width: 60%;
   }
+
 }

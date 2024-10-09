@@ -1,29 +1,22 @@
-.page-intro {
+.page-intro-index {
+  display: flex;
   width: 90%;
-  padding: 30px;
-  gap: 20px;
   justify-content: center;
+  margin: auto;
+  align-items: center;
+  padding: 30px 0px;
 }
 
-.page-intro, .projects, .projects-content{
-  display: flex;
-  margin: auto;
-} 
-
-.page-intro-text, .page-intro-image, .projects-content,.projects-text, .projects-image {
+.page-intro-index-text, .page-intro-index-image {
   flex: 1;
 }
 
-.page-intro-text {
-  max-width: 80%;
-  padding-top: 40px;
-}
-
-.page-intro-text, .projects-text{
+.page-intro-index-text, .projects-text {
   line-height: 25px;
 }
 
-.home-image, .screenshot, .page-intro-image {
+.home-image, .screenshot  {
+  max-width: 100%;
   height: auto;
 }
 
@@ -32,105 +25,63 @@
   padding-bottom: 30px;
 }
 
-.screenshot, .page-intro-image {
-  width: 100%;
-}
-
 .projects {
+  display: flex;
   width: 95%;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
   gap: 10px;
+  padding-bottom: 100px;
 }
 
 .projects-content {
-  flex-direction: column;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.projects-image, .projects-content  {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+.projects-text, .projects-image {
+  flex: 1;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
+
 
 .projects-text {
-  padding: 30px 20px;
+  padding: 20px 10px 30px 10px;
+  color: black;
 }
 
 h1 {
-  line-height: 35px;
+  line-height: 30px;
 }
 
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px) {
-  .projects{
-    width: 90%;
-    gap: 20px;
-  }
-
-  .projects, .page-intro{
+  .page-intro-index {
     flex-direction: column;
   }
 
-  .p-bold {
-    font-size: 14px;
-  }
-
-  .page-intro-text {
-    max-width: 100%;
-    padding-top: 10px;
-  }
-
-  .page-intro-image {
-    margin: auto;
-  }
-
-  .home-image {
-    width: 100%;
-  }
-
-  .page-intro {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
     width: 90%;
-    padding-top: 10px;
-    gap: 10px;
   }
-
 }
 
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px) {
-  .projects{
+  .projects {
+    display: flex;
     flex-direction: column;
     width: 80%;
-    gap: 30px;
-  }
-
-  .p-bold {
-    font-size: 15px;
-  }
-
-  .page-intro-text {
-    max-width: 90%;
-    padding-top: 10px;
-  }
-
-  .page-intro-image {
-    margin: auto;
-  }
-
-  .home-image {
-    width: 100%;
-  }
-
-  .page-intro {
-    width: 90%;
-    padding-top: 10px;
-    gap: 0px;
+    gap: 50px;
   }
 }
 
 /*laptop and desktop*/
 @media screen and (min-width: 901px) and (max-width: 20000px) {
-  .p-bold {
-    font-size: 16px;
+  .page-intro-index {
+    width: 90%;
   }
 }
