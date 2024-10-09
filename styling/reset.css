@@ -20,7 +20,7 @@ nav li {
   display: inline-block;
 }
 
-nav a, footer a, a.button {
+nav a, footer a, a.button, nav a:active {
   text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ nav a:hover, footer a:hover, .active-page, .p-bold {
   font-weight: bold;
 }
 
-nav a:visited, nav a:link footer a:visited, footer a:link{
+nav a:visited, nav a:link footer a:visited, footer a:link, nav a:active{
   color: black;
 }
 
