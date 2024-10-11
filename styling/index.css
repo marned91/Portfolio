@@ -19,7 +19,7 @@
   flex: 1;
 }
 
-.page-intro-index-text, .projects-text {
+.projects-text {
   line-height: 25px;
 }
 
@@ -74,6 +74,10 @@
   .page-intro-index-text h1 {
     line-height: 30px;
   }
+
+  .page-intro-index-text {
+    line-height: 25px;
+  }
 }
 
 /*smaller and lagrer tablets*/
@@ -91,15 +95,23 @@
   .page-intro-index-text h1 {
     line-height: 30px;
   }
+
+  .page-intro-index-text {
+    line-height: 25px;
+  }
 }
 
 /*laptop and desktop*/
 @media screen and (min-width: 901px) and (max-width: 20000px) {
   .page-intro-index {
-    width: 90%;
+    width: 80%;
   }
 
   .page-intro-index-text h1 {
     line-height: 45px;
+  }
+
+  .page-intro-index-text {
+    line-height: 35px;
   }
 }
