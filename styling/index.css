@@ -1,10 +1,18 @@
-.page-intro-index {
-  display: flex;
-  width: 90%;
+.page-intro-index { 
   justify-content: center;
-  margin: auto;
-  align-items: center;
   padding: 30px 0px;
+}
+
+.page-intro-index, .projects {
+  margin: auto;
+}
+
+.page-intro-index, .projects, .projects-content {
+  display: flex;
+}
+
+.page-intro-index, .projects-content {
+  align-items: center;
 }
 
 .page-intro-index-text, .page-intro-index-image {
@@ -26,18 +34,14 @@
 }
 
 .projects {
-  display: flex;
   width: 95%;
-  margin: auto;
   gap: 10px;
   padding-bottom: 100px;
 }
 
 .projects-content {
   background-color: white;
-  display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .projects-text, .projects-image {
@@ -62,7 +66,6 @@ h1 {
   }
 
   .projects {
-    display: flex;
     flex-direction: column;
     gap: 50px;
     width: 90%;
@@ -72,7 +75,6 @@ h1 {
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px) {
   .projects {
-    display: flex;
     flex-direction: column;
     width: 80%;
     gap: 50px;

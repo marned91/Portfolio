@@ -1,10 +1,19 @@
 .page-intro-about {
-  display: flex;
-  width: 80%;
   justify-content: center;
-  margin: auto;
-  align-items: center;
   padding: 30px 0px;
+}
+
+.page-intro-about, .facts-1, .facts-2 {
+  display: flex;
+}
+
+.page-intro-about, .facts-1, .facts-2 {
+  align-items: center;
+}
+
+.page-intro-about, .background-info, .facts-1, .facts-2  {
+  width: 80%;
+  margin: auto;
 }
 
 .page-intro-about-text, .page-intro-about-image {
@@ -15,7 +24,7 @@
   line-height: 25px;
 }
 
-.about-image {
+.about-image, .facts-image {
   width: 100%;
   height: auto;
 }
@@ -28,11 +37,6 @@
   line-height: 25px;
 }
 
-.background-info {
-  width: 80%;
-  margin: auto;
-}
-
 .facts-1 {
   padding-top: 30px;
 }
@@ -42,16 +46,7 @@
 }
 
 .facts-1, .facts-2 {
-  display: flex;
-  width: 80%;
-  margin: auto;
-  align-items: center;
   gap: 20px;
-}
-
-.facts-image {
-  width: 100%;
-  height: auto;
 }
 
 
@@ -61,22 +56,20 @@
     flex-direction: column-reverse;
   }
 
+  .page-intro-about,.facts-1, .facts-2 {
+    width: 90%;
+  } 
+
   .page-intro-about {
     gap: 10px;
-    width: 90%;
   }
 
   .facts-2, .page-intro-about {
     flex-direction: column;
   }
 
-  .facts-1, .facts-2 {
-    width: 90%;
-  }
-
   .facts-image {
     width: 60%;
-    height: auto;
   }
 }
 
