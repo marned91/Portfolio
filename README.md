@@ -33,15 +33,12 @@ Throughout the development of this application, I have demonstrated the followin
 # Project Technologies
 - HTML: The backbone of the portfolio's structure and content.
 - CSS: Styling to create a professional, responsive layout without the use of frameworks.
-- GitHub Pages: The portfolio is hosted on GitHub Pages, making it accessible to anyone.
-
-### Project Repository
-GitHub Repository: The project is hosted on GitHub, with a dedicated repository that includes version control. The repository is linked to GitHub Projects for effective project management and tracking progress. Code and project were initially in a repository created by Noroff. During the project period we were instructed to create our own repository to enable public view. This resulted in loss of commit history for 80% of the project. 
+- GitHub Pages: The portfolio is hosted on GitHub Pages, making it accessible to anyone. 
 
 ### Development Tools
 - Figma: Used for wireframing and designing the user interface.
 - Visual Studio Code as the primary code editor.
-- GitHub: Version control system used for tracking changes and managing the project repository.
+- GitHub: Version control system used for tracking changes.
 - Online Testing Tools: For validating HTML and WCAG compliance. https://validator.w3.org/ and https://wave.webaim.org/
 
 # Getting started
