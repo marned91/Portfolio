@@ -1,5 +1,5 @@
 # Portfolio
-<img width="1147" alt="Skjermbilde 2024-10-11 kl  10 36 01" src="https://github.com/user-attachments/assets/d7017ba1-1c28-44b2-a18f-06689e7aa196">
+<img width="1143" alt="Skjermbilde 2024-10-11 kl  10 52 55" src="https://github.com/user-attachments/assets/9ab21dd8-09e2-4dd7-9e4b-fb91b59ef804">
 
 # Purpose
 The goal of this project is to create a professional portfolio showcasing my progress as a front-end developer during the first year of Noroff's Frontend Development (FED1) course. This portfolio highlights three major projects, illustrating my skills in HTML, CSS, and JavaScript, along with responsive web design and best practices in documentation.
