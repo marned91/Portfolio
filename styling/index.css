@@ -55,10 +55,6 @@
   color: black;
 }
 
-h1 {
-  line-height: 30px;
-}
-
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px) {
   .page-intro-index {
@@ -70,6 +66,14 @@ h1 {
     gap: 50px;
     width: 90%;
   }
+
+  .page-intro-index {
+    padding: 10px;
+  }
+
+  .page-intro-index-text h1 {
+    line-height: 30px;
+  }
 }
 
 /*smaller and lagrer tablets*/
@@ -79,11 +83,23 @@ h1 {
     width: 80%;
     gap: 50px;
   }
+
+  .page-intro-index {
+    padding: 20px;
+  }
+
+  .page-intro-index-text h1 {
+    line-height: 30px;
+  }
 }
 
 /*laptop and desktop*/
 @media screen and (min-width: 901px) and (max-width: 20000px) {
   .page-intro-index {
     width: 90%;
+  }
+
+  .page-intro-index-text h1 {
+    line-height: 45px;
   }
 }
