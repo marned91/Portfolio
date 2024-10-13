@@ -3,20 +3,28 @@
   padding: 30px 0px;
 }
 
-.page-intro-about, .facts-1, .facts-2 {
+.page-intro-about,
+.facts-1,
+.facts-2 {
   display: flex;
 }
 
-.page-intro-about, .facts-1, .facts-2 {
+.page-intro-about,
+.facts-1,
+.facts-2 {
   align-items: center;
 }
 
-.page-intro-about, .background-info, .facts-1, .facts-2  {
+.page-intro-about,
+.background-info,
+.facts-1,
+.facts-2 {
   width: 80%;
   margin: auto;
 }
 
-.page-intro-about-text, .page-intro-about-image {
+.page-intro-about-text,
+.page-intro-about-image {
   flex: 1;
 }
 
@@ -24,7 +32,8 @@
   line-height: 25px;
 }
 
-.about-image, .facts-image {
+.about-image,
+.facts-image {
   width: 100%;
   height: auto;
 }
@@ -33,7 +42,9 @@
   padding-bottom: 10px;
 }
 
-.background-info, .facts-1, .facts-2 {
+.background-info,
+.facts-1,
+.facts-2 {
   line-height: 25px;
 }
 
@@ -45,10 +56,10 @@
   padding-bottom: 50px;
 }
 
-.facts-1, .facts-2 {
+.facts-1,
+.facts-2 {
   gap: 20px;
 }
-
 
 /*mobile and small tablets*/
 @media screen and (min-width: 300px) and (max-width: 600px) {
@@ -56,15 +67,18 @@
     flex-direction: column-reverse;
   }
 
-  .page-intro-about,.facts-1, .facts-2 {
+  .page-intro-about,
+  .facts-1,
+  .facts-2 {
     width: 90%;
-  } 
+  }
 
   .page-intro-about {
     gap: 10px;
   }
 
-  .facts-2, .page-intro-about {
+  .facts-2,
+  .page-intro-about {
     flex-direction: column;
   }
 
@@ -75,7 +89,8 @@
 
 /*smaller and lagrer tablets*/
 @media screen and (min-width: 601px) and (max-width: 900px) {
-  .facts-frontend-text, .facts-me-text {
+  .facts-frontend-text,
+  .facts-me-text {
     width: 55%;
   }
 
@@ -86,8 +101,8 @@
 
 /*laptop and desktop*/
 @media screen and (min-width: 901px) and (max-width: 20000px) {
-  .facts-frontend-text, .facts-me-text {
+  .facts-frontend-text,
+  .facts-me-text {
     width: 60%;
   }
-
 }

@@ -1,10 +1,12 @@
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
   margin: 0%;
 }
 
-header, footer {
+header,
+footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,7 +20,8 @@ header {
   border-style: solid;
 }
 
-.logo-header, .logo-footer {
+.logo-header,
+.logo-footer {
   width: 80%;
   height: auto;
 }
@@ -31,12 +34,27 @@ nav ul {
   padding-inline-start: 0px;
 }
 
-
-nav a, a.button, footer a, nav a:active, footer a:active, nav a:visited, footer a:visited, a.button, a.button:active, a.button:visited {
+nav a,
+a.button,
+footer a,
+nav a:active,
+footer a:active,
+nav a:visited,
+footer a:visited,
+a.button,
+a.button:active,
+a.button:visited {
   text-decoration: none;
 }
 
-.p-bold, nav a:hover, .footer-link:hover, .active-page {
+a:hover {
+  cursor: pointer;
+}
+
+.p-bold,
+nav a:hover,
+.footer-link:hover,
+.active-page {
   font-weight: bold;
 }
 
@@ -71,11 +89,14 @@ nav a, a.button, footer a, nav a:active, footer a:active, nav a:visited, footer 
     font-size: 18px;
   }
 
-  nav a, footer a, .p-intro {
+  nav a,
+  footer a,
+  .p-intro {
     font-size: 14px;
   }
 
-  p, a.button {
+  p,
+  a.button {
     font-size: 13px;
   }
 
@@ -83,7 +104,7 @@ nav a, a.button, footer a, nav a:active, footer a:active, nav a:visited, footer 
     margin-left: 10px;
     flex: 1;
   }
-  
+
   .nav {
     margin-right: 10px;
   }
@@ -111,11 +132,14 @@ nav a, a.button, footer a, nav a:active, footer a:active, nav a:visited, footer 
     font-size: 20px;
   }
 
-  nav a, footer a, .p-intro {
+  nav a,
+  footer a,
+  .p-intro {
     font-size: 16px;
   }
 
-  p, a.button {
+  p,
+  a.button {
     font-size: 14px;
   }
 
@@ -123,7 +147,7 @@ nav a, a.button, footer a, nav a:active, footer a:active, nav a:visited, footer 
     margin-left: 30px;
     flex: 1;
   }
-  
+
   .nav {
     margin-right: 50px;
   }
@@ -151,18 +175,21 @@ nav a, a.button, footer a, nav a:active, footer a:active, nav a:visited, footer 
     font-size: 25px;
   }
 
-  nav a, footer a, .p-intro {
+  nav a,
+  footer a,
+  .p-intro {
     font-size: 18px;
   }
 
-  p, a.button {
+  p,
+  a.button {
     font-size: 16px;
   }
 
   .logo {
     margin-left: 80px;
   }
-  
+
   .nav {
     margin-right: 250px;
   }
@@ -174,5 +201,4 @@ nav a, a.button, footer a, nav a:active, footer a:active, nav a:visited, footer 
   .footer-link {
     margin-right: 50px;
   }
-
 }

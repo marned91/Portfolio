@@ -1,95 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name = "description" content="Portfolio - showcasing my frontend work">
-        <title>My Portfolio</title>
-        <link rel="icon" type="image/favicon" href="styling/images/favicon-32x32.png">
-        <link rel="stylesheet" href="styling/styles.css"> 
-      </head>
-      <body>
-        <header>
-            <div class="logo">
-                <a href="index.html">
-                <img src="styling/images/logo_header.png" alt="My Portfolio logo" class="logo-header">
-                </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio - showcasing my frontend work"
+    />
+    <title>My Portfolio</title>
+    <link
+      rel="icon"
+      type="image/favicon"
+      href="styling/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styling/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img
+            src="styling/images/logo_header.png"
+            alt="My Portfolio logo"
+            class="logo-header"
+          />
+        </a>
+      </div>
+      <div class="nav">
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active-page">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="page-intro-index">
+        <div class="page-intro-index-text">
+          <h1>Welcome to My Portfolio!</h1>
+          <p class="p-intro">
+            Thank you for visiting my portfolio! Here, you'll find projects that
+            highlight my skills as a frontend developer, from responsive web
+            designs to interactive JavaScript features.
+          </p>
+          <p class="p-intro">
+            Feel free to explore and reach out if you're interested in
+            collaborating!
+          </p>
+        </div>
+        <div class="page-intro-index-image">
+          <img
+            src="styling/images/home_intro_image.png"
+            alt="illustration of a woman thinking, working and plannning"
+            class="home-image"
+          />
+        </div>
+      </div>
+      <div class="background-wrapper">
+        <h2 class="projects-h2">MY PROJECTS</h2>
+        <div class="projects">
+          <div class="projects-content">
+            <div class="projects-image">
+              <img
+                src="styling/images/Project_exam.png"
+                alt="screenshot of project exam index page showing nav and a carousel"
+                class="screenshot"
+              />
             </div>
-              <div class="nav">
-                <nav>
-                  <ul>
-                    <li><a href="index.html" class="active-page">HOME</a> </li>
-                    <li><a href="about.html">ABOUT</a></li>
-                  </ul>
-                </nav>
-              </div>
-        </header>
-        <main>
-          <div class="page-intro-index">
-            <div class="page-intro-index-text">
-            <h1>Welcome to My Portfolio!</h1>
-            <p class="p-intro">Thank you for visiting my portfolio! Here, you'll find projects that highlight my skills as a frontend developer, from responsive web designs to interactive JavaScript features.</p>
-            <p class="p-intro">Feel free to explore and reach out if you're interested in collaborating!</p>
+            <div class="projects-text">
+              <h3>Project Exam</h3>
+              <p class="p-bold">Description</p>
+              <p>
+                This project is a front-end web app designed to showcase a
+                dynamic blog platform. Built with HTML, CSS, and JavaScript, it
+                serves as a demonstration of the skills acquired in the FED1
+                program. Users can view and interact with posts while the owner
+                has management capabilities.
+              </p>
+              <p class="p-bold">GitHub Repository</p>
+              <a
+                class="project-links"
+                href="https://github.com/marned91/FED1-PE1"
+                >https://github.com/marned91/FED1-PE1</a
+              >
+              <p class="p-bold">Public Page</p>
+              <a
+                class="project-links"
+                href="https://marned91.github.io/FED1-PE1/"
+                >https://marned91.github.io/FED1-PE1/</a
+              >
+            </div>
           </div>
-          <div class="page-intro-index-image">
-            <img src="styling/images/home_intro_image.png" alt="illustration of a woman thinking, working and plannning" class="home-image">
+          <div class="projects-content">
+            <div class="projects-image">
+              <img
+                src="styling/images/Semester_project.png"
+                alt="screenshot of semester project index page showing nav, a intro with an illustration and some text boxes"
+                class="screenshot"
+              />
+            </div>
+            <div class="projects-text">
+              <h3>Semester Project</h3>
+              <p class="p-bold">Description</p>
+              <p>
+                This project is a front-end website for the fictional Community
+                Science Museum, built with HTML and CSS without frameworks. It
+                engages a younger audience and offers a clean, device-friendly
+                design without being overly childish, enhancing user experience.
+              </p>
+              <p class="p-bold">GitHub Repository</p>
+              <a
+                class="project-links"
+                href="https://github.com/marned91/Semester-Project"
+                >https://github.com/marned91/Semester-Project</a
+              >
+              <p class="p-bold">Public Page</p>
+              <a
+                class="project-links"
+                href="https://marned91.github.io/Semester-Project/"
+                >https://marned91.github.io/Semester-Project/</a
+              >
+            </div>
           </div>
-          </div>
-          <div class="background-wrapper">
-            <h2 class="projects-h2">MY PROJECTS</h2>
-            <div class="projects">
-                <div class="projects-content">
-                  <div class="projects-image">
-                    <img src="styling/images/Project_exam.png" alt="screenshot of project exam index page showing nav and a carousel" class="screenshot">
-                  </div>
-                  <div class="projects-text">
-                    <h3>Project Exam</h3>
-                      <p class="p-bold">Description</p>
-                      <p>This project is a front-end web app designed to showcase a dynamic blog platform. Built with HTML, CSS, and JavaScript, it serves as a demonstration of the skills acquired in the FED1 program. Users can view and interact with posts while the owner has management capabilities.</p>
-                      <p class="p-bold">GitHub Repository</p>
-                      <a class="project-links" href="https://github.com/marned91/FED1-PE1">https://github.com/marned91/FED1-PE1</a>
-                      <p class="p-bold">Public Page</p>
-                      <a class="project-links" href="https://marned91.github.io/FED1-PE1/">https://marned91.github.io/FED1-PE1/</a>
-                  </div>
-                </div>
-                <div class="projects-content">
-                  <div class="projects-image">
-                    <img src="styling/images/Semester_project.png" alt="screenshot of semester project index page showing nav, a intro with an illustration and some text boxes" class="screenshot">
-                  </div>
-                  <div class="projects-text">
-                    <h3>Semester Project</h3>
-                      <p class="p-bold">Description</p>
-                      <p>This project is a front-end website for the fictional Community Science Museum, built with HTML and CSS without frameworks. It engages a younger audience and offers a clean, device-friendly design without being overly childish, enhancing user experience.</p>
-                      <p class="p-bold">GitHub Repository</p>
-                      <a class="project-links" href="https://github.com/marned91/Semester-Project">https://github.com/marned91/Semester-Project</a>
-                      <p class="p-bold">Public Page</p>
-                      <a class="project-links" href="https://marned91.github.io/Semester-Project/">https://marned91.github.io/Semester-Project/</a>
-                  </div>
-                </div>
-                <div class="projects-content">
-                  <div class="projects-image">
-                    <img src="styling/images/cross_course_project.png" alt="screenshot of semester project index page showing nav, a intro with an illustration and some text boxes" class="screenshot">
-                  </div>
-                  <div class="projects-text">
-                    <h3>Cross-Course Project</h3>
-                      <p class="p-bold">Description</p>
-                      <p>This project is a front-end online store allowing users to browse rain jackets, view details, add items to a cart, and complete checkout. Initially developed with HTML and CSS, it was later enhanced with JavaScript for interactive functionality, ensuring a user-friendly experience.</p>
-                      <p class="p-bold">GitHub Repository</p>
-                      <a class="project-links" href="https://github.com/marned91/Cross-course-project">https://github.com/marned91/Cross-course-project</a>
-                      <p class="p-bold">Public Page</p>
-                      <a class="project-links" href="https://marned91.github.io/Cross-course-project/">https://marned91.github.io/Cross-course-project/</a>
-                  </div>
-                </div>
+          <div class="projects-content">
+            <div class="projects-image">
+              <img
+                src="styling/images/cross_course_project.png"
+                alt="screenshot of semester project index page showing nav, a intro with an illustration and some text boxes"
+                class="screenshot"
+              />
+            </div>
+            <div class="projects-text">
+              <h3>Cross-Course Project</h3>
+              <p class="p-bold">Description</p>
+              <p>
+                This project is a front-end online store allowing users to
+                browse rain jackets, view details, add items to a cart, and
+                complete checkout. Initially developed with HTML and CSS, it was
+                later enhanced with JavaScript for interactive functionality,
+                ensuring a user-friendly experience.
+              </p>
+              <p class="p-bold">GitHub Repository</p>
+              <a
+                class="project-links"
+                href="https://github.com/marned91/Cross-course-project"
+                >https://github.com/marned91/Cross-course-project</a
+              >
+              <p class="p-bold">Public Page</p>
+              <a
+                class="project-links"
+                href="https://marned91.github.io/Cross-course-project/"
+                >https://marned91.github.io/Cross-course-project/</a
+              >
+            </div>
           </div>
         </div>
-        </main>
-        <footer>
-          <div class="footer-logo">
-              <img src="styling/images/logo_footer.png" alt="My Portfolio logo" class="logo-footer">
-          </div>
-          <div class="footer-link">
-            <a href="https://github.com/marned91" id="github-link">Visit GutHub Profile</a>
-        </div>
-      </footer>
-    </body>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-logo">
+        <img
+          src="styling/images/logo_footer.png"
+          alt="My Portfolio logo"
+          class="logo-footer"
+        />
+      </div>
+      <div class="footer-link">
+        <a href="https://github.com/marned91" id="github-link"
+          >Visit GutHub Profile</a
+        >
+      </div>
+    </footer>
+  </body>
 </html>

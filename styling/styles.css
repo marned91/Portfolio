@@ -9,7 +9,9 @@ h1 {
   font-weight: normal;
 }
 
-h2, nav a, .footer-link {
+h2,
+nav a,
+.footer-link {
   font-family: var(--font-secondary);
 }
 
@@ -17,15 +19,23 @@ h2 {
   font-weight: lighter;
 }
 
-h3, p, a, .button {
+h3,
+p,
+a,
+.button {
   font-family: var(--font-body);
 }
 
-h2, .p-white {
+h2,
+.p-white {
   color: var(--color-white);
 }
 
-.h2-black, nav a, .footer-link, a, h3 {
+.h2-black,
+nav a,
+.footer-link,
+a,
+h3 {
   color: var(--color-black);
 }
 
