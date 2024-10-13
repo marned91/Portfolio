@@ -5,12 +5,24 @@ body {
   margin: 0%;
 }
 
+body,
 header,
 footer {
   display: flex;
+}
+
+body {
+  flex-direction: column;
+}
+
+footer {
+  flex: 1;
+}
+
+header,
+footer {
   justify-content: space-between;
   align-items: center;
-  margin: auto;
   padding: 10px;
 }
 
@@ -191,7 +203,7 @@ nav a:hover,
   }
 
   .nav {
-    margin-right: 250px;
+    margin-right: 150px;
   }
 
   nav li {
