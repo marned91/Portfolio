@@ -55,7 +55,7 @@ To get the project started, follow these steps:
 ```npm run start```
 
 # Contributing
-As this portfolio is part of a graded project for my course, I am not accepting contributions. However, I welcome any feedback or suggestions, which can be shared via issues in the repository.
+As this portfolio is part of a graded project for my course and will be used for job applications, I am not accepting contributions. However, I welcome any feedback or suggestions, which can be shared via issues in the repository.
 
 Thank you for understanding!
 
